@@ -6,8 +6,9 @@ document.getElementById('login-form').addEventListener('submit', function(e)) {
     var userType = document.getElementById('user-type').value;
 
     if (userType === 'employee' && username === 'mail' && password === 'pass'){
-        
+        window.location.href = 'home_empleado.html';
     } else if (userType === 'coordinator' && username === 'coordinador' && password === 'pass' )
+            window.location.href = 'home_coordinador.html';
 
     
 }
